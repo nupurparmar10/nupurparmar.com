@@ -1,386 +1,688 @@
-﻿<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="Nupur Parmar">
-    <meta name="author" content="Nupur Parmar">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Nupur Parmar</title>
-    <link rel="icon" type="image/x-icon" href="NP.jpg">
-    <link href="../../css2-2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="../../css2-3?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="../../css2-4?family=Kristi&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d0c0a" />
+    <meta name="description" content="Nupur Parmar — Custom Software & Business Automation Developer. I build digital systems that solve real business problems: custom web applications, business systems, API integrations and workflow automation." />
+    <title>Nupur Parmar — Custom Software & Business Automation Developer</title>
 
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nupur Parmar" />
+    <meta property="og:title" content="Nupur Parmar — Custom Software &amp; Business Automation Developer" />
+    <meta property="og:description" content="I design and develop custom web applications, business systems, automation workflows, and integrations that help businesses work smarter, faster, and more efficiently." />
+    <meta property="og:url" content="https://nupurparmar.com/" />
+    <meta property="og:image" content="https://nupurparmar.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nupur Parmar — Custom Software &amp; Business Automation Developer" />
+    <meta name="twitter:description" content="Custom web applications, business systems, API integrations and workflow automation — digital systems that solve real business problems." />
+    <meta name="twitter:image" content="https://nupurparmar.com/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
+    <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
+<script defer src="/static/js/bundle.js"></script><script>
+if(window.self!==window.top){
+  var s=document.createElement("script");s.src="/visual-edit-overlay.js";document.head.appendChild(s);
+  window.tailwind=window.tailwind||{};tailwind.config={corePlugins:{preflight:false}};var t=document.createElement("script");t.src="https://cdn.tailwindcss.com";document.head.appendChild(t);
+}
+</script>
 </head>
+<body data-loading>
 
-<body>
-
-    <div id="preloader">
-        <div class="loader_line"></div>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader" aria-hidden="true">
+        <div class="preloader__inner">
+            <span class="preloader__name">Nupur Parmar</span>
+            <span class="preloader__role">Custom Software · Business Automation</span>
+            <span class="preloader__count" id="preloader-count">00</span>
+        </div>
+        <div class="preloader__bar"><span id="preloader-bar"></span></div>
     </div>
 
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursor-label"></span></div>
+    <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
 
-    <div class="elisc_tm_all_wrap" data-magic-cursor="show">
-        <div class="dodo_tm_one_page_wrapper">
+    <!-- Header -->
+    <header class="site-header" id="site-header">
+        <a href="#home" class="site-header__logo" data-testid="nav-logo" data-cursor="hover">Nupur<span>Parmar</span></a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="#home" class="site-nav__link is-active" data-testid="nav-home" data-cursor="hover">Home</a>
+            <a href="#about" class="site-nav__link" data-testid="nav-about" data-cursor="hover">About</a>
+            <a href="#services" class="site-nav__link" data-testid="nav-services" data-cursor="hover">Services</a>
+            <a href="#work" class="site-nav__link" data-testid="nav-work" data-cursor="hover">Work</a>
+            <a href="#process" class="site-nav__link" data-testid="nav-process" data-cursor="hover">Process</a>
+            <a href="#contact" class="site-nav__link" data-testid="nav-contact" data-cursor="hover">Contact</a>
+        </nav>
+        <a href="#contact" class="btn btn--pill btn--small site-header__cta" data-testid="header-cta" data-cursor="hover"><span>Let&rsquo;s Talk</span></a>
+        <button class="menu-toggle" id="menu-toggle" data-testid="menu-toggle" aria-label="Open menu" aria-expanded="false" data-cursor="hover">
+            <span></span><span></span>
+        </button>
+    </header>
 
-            <div class="elisc_tm_topbar">
-                <div class="topbar_inner">
-                    <div class="logo" data-type="image">
-                        <a class="image" href="#"><img src="img/logo/logo.png" alt="" style="max-width:85%;"></a>
-                        <a class="text" href="#"><span>Nupur Parmar</span></a>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <nav class="mobile-menu__nav" aria-label="Mobile">
+            <a href="#home" class="mobile-menu__link" data-testid="mobile-nav-home"><em>01</em>Home</a>
+            <a href="#about" class="mobile-menu__link" data-testid="mobile-nav-about"><em>02</em>About</a>
+            <a href="#services" class="mobile-menu__link" data-testid="mobile-nav-services"><em>03</em>Services</a>
+            <a href="#work" class="mobile-menu__link" data-testid="mobile-nav-work"><em>04</em>Work</a>
+            <a href="#process" class="mobile-menu__link" data-testid="mobile-nav-process"><em>05</em>Process</a>
+            <a href="#contact" class="mobile-menu__link" data-testid="mobile-nav-contact"><em>06</em>Contact</a>
+        </nav>
+        <a href="mailto:connect@nupurparmar.com" class="mobile-menu__mail" data-testid="mobile-menu-email">connect@nupurparmar.com</a>
+    </div>
+
+    <main id="main">
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="home">
+            <div class="hero__bg-word" id="hero-bg-word" aria-hidden="true">SYSTEMS</div>
+            <div class="hero__grid-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <p class="hero__eyebrow" data-hero-fade>
+                        <span class="hero__status" aria-hidden="true"></span>
+                        Nupur Parmar — Custom Software &amp; Business Automation Developer
+                    </p>
+
+                    <h1 class="hero__title">
+                        <span class="hero__line"><span class="hero__line-inner">Building Digital</span></span>
+                        <span class="hero__line"><span class="hero__line-inner">Solutions for <em>Real</em></span></span>
+                        <span class="hero__line"><span class="hero__line-inner"><em>Business</em> Problems</span></span>
+                    </h1>
+
+                    <p class="hero__desc" data-hero-fade>
+                        I design and develop custom web applications, business systems, automation
+                        workflows, and integrations that help businesses work smarter, faster,
+                        and more efficiently.
+                    </p>
+
+                    <div class="hero__ctas" data-hero-fade>
+                        <a href="#work" class="btn btn--primary" data-testid="hero-view-work-btn" data-cursor="hover" data-magnetic><span>View My Work</span><i class="btn__arrow" aria-hidden="true">→</i></a>
+                        <a href="#contact" class="btn btn--ghost" data-testid="hero-work-together-btn" data-cursor="hover" data-magnetic><span>Let&rsquo;s Work Together</span></a>
                     </div>
-                    <div class="trigger">
-                        <div class="hamburger hamburger--slider">
-                            <div class="hamburger-box">
-                                <div class="hamburger-inner"></div>
-                            </div>
-                        </div>
+
+                    <p class="hero__tech" data-hero-fade>PHP &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; APIs &nbsp;·&nbsp; Automation &nbsp;·&nbsp; AI-assisted Development</p>
+                </div>
+
+                <div class="hero__visual" id="hero-visual">
+                    <figure class="hero__frame" data-tilt>
+                        <img src="https://nupurparmar.com/img/about/1.jpg" alt="Nupur Parmar — Software Developer" class="hero__photo" data-testid="hero-photo" />
+                        <figcaption class="hero__frame-caption">
+                            <span>Portfolio</span><span>EST. 2020</span>
+                        </figcaption>
+                    </figure>
+                    <div class="hero__badge" data-tilt-badge aria-hidden="true">
+                        <svg viewBox="0 0 120 120" class="hero__badge-ring">
+                            <defs><path id="circlePath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+                            <text><textPath href="#circlePath">AVAILABLE FOR NEW PROJECTS · LET&rsquo;S BUILD · </textPath></text>
+                        </svg>
+                        <span class="hero__badge-core">↓</span>
                     </div>
                 </div>
             </div>
-            <div class="elisc_tm_mobile_menu">
-                <div class="inner">
-                    <div class="wrapper">
-                        <div class="avatar">
-                            <div class="image" data-img-url="img/about/1.jpg"></div>
-                        </div>
-                        <div class="menu_list">
-                            <ul class="anchor_nav">
-                                <li class="current"><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="social">
-                            <ul>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/nupur-parmar/"><img class="svg" src="img/svg/social/linkedin-svgrepo-com.svg" alt=""></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="copyright">
-                            <p>Copyright  2024</p>
-                        </div>
-                    </div>
+
+            <a href="#about" class="hero__scroll" data-testid="hero-scroll-indicator" data-cursor="hover" data-hero-fade>
+                <span>Scroll</span>
+                <i class="hero__scroll-line" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- ============ MARQUEE ============ -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee__track">
+                <div class="marquee__group">
+                    <span>Custom Software</span><i>✦</i><span>Web Applications</span><i>✦</i><span>Business Automation</span><i>✦</i><span>API Integrations</span><i>✦</i><span>AI-Assisted Development</span><i>✦</i>
+                </div>
+                <div class="marquee__group">
+                    <span>Custom Software</span><i>✦</i><span>Web Applications</span><i>✦</i><span>Business Automation</span><i>✦</i><span>API Integrations</span><i>✦</i><span>AI-Assisted Development</span><i>✦</i>
                 </div>
             </div>
-
-
-            <div class="elisc_tm_sidebar">
-                <div class="sidebar_inner">
-                    <div class="author">
-                        <div class="image">
-                            <img src="img/thumbs/1-1.jpg" alt="">
-                            <div class="main" data-img-url="img/about/1.jpg"></div>
-                        </div>
-                        <div class="name">
-                            <h3><span>Nupur Parmar<span class="back">Nupur Parmar</span></span></h3>
-                        </div>
-                    </div>
-                    <div class="menu scrollable">
-                        <ul class="anchor_nav">
-                            <li class="current"><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#service">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="copyright">
-                        <div class="social">
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/nupur-parmar/"><i class="icon-linkedin-1"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <p>Copyright 2024 nupurparmar.com | All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="elisc_tm_mainpart">
-                <div class="mainpart_inner">
-
-                    <div class="elisc_tm_section animated" id="home">
-                        <div class="elisc_tm_home">
-                            <div class="tm_content">
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="title">
-                                            <h3>Hi, I'm <span class="blueColor">Nupur!</span></h3>
-                                            <h3>
-                                            <span class="cd-headline rotate-1"> 
-                                            <span class="blc">Creative</span>
-                                            <span class="cd-words-wrapper">
-                                            <b class="is-visible">Website</b>
-                                            <b>Application</b>
-                                            </span>
-                                            </span>
-                                            </h3>
-                                        </div>
-                                        <div class="subtitle">
-                                            <p>I'm a web developer with <span class="blueColor">5+ years</span> of experience</p>
-                                        </div>
-                                        <div class="buttons">
-                                            <div class="elisc_tm_button">
-                                                <a class="anchor" href="#contact">Got a project?</a>
-                                            </div>
-                                            <div class="elisc_tm_button" data-style="border">
-                                                <a class="anchor" href="#contact">Let's talk</a>
-                                            </div>
-                                        </div>
-                                        <div class="info">
-                                            <ul>
-                                                <li><a href="mailto:nupurparmar1016@gmail.com">nupurparmar1016@gmail.com</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img src="img/about/1.jpg" alt="" style="border-radius: 50%;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="elisc_tm_section" id="about">
-                        <div class="elisc_tm_about">
-                            <div class="tm_content">
-                                <div class="elisc_tm_biography">
-                                    <div class="left">
-                                        <div class="title">
-                                            <span class="mini">- Nice to meet you!</span>
-                                            <h3 class="name">Nupur Parmar</h3>
-                                            <span class="job">
-                                            <span class="cd-headline rotate-1"> 
-                                            <span class="blc">Web designer &amp;</span>
-                                            <span class="cd-words-wrapper">
-                                            <b class="is-visible">Developer</b>
-                                            <b>Application</b>
-                                            </span>
-                                            </span>
-                                            </span>
-                                        </div>
-                                        <div class="elisc_tm_button">
-                                            <a class="anchor" href="#portfolio">Got a project?</a>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <div class="text">
-                                            <p>Hello there! My name is <span class="yellowColor">Nupur Parmar</span>. I am a web designer &amp; developer, and I'm very passionate and dedicated to my work.</p>
-                                            <p>With 5 years experience as a professional a Web Developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and
-                                                collaboration.</p>
-                                        </div>
-                                        <div class="info">
-                                            <ul>
-                                                <li>
-                                                    <span>Mail</span>
-                                                    <span><a href="mailto:nupurparmar1016@gmail.com">nupurparmar1016@gmail.com</a>
-                                                    </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elisc_tm_counter">
-                                    <ul>
-                                        <li>
-                                            <div class="list_inner">
-                                                <h3>5+</h3>
-                                                <span>Years of Experience</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <h3>10+</h3>
-                                                <span>Projects Completed</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <h3>10+</h3>
-                                                <span>Happy Clients</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="elisc_tm_section" id="service">
-                        <div class="elisc_tm_services">
-                            <div class="tm_content">
-                                <div class="elisc_tm_service_title">
-                                    <div class="elisc_tm_title">
-                                        <span>- Services</span>
-                                        <h3>My Services</h3>
-                                    </div>
-                                    <a href="mailto:nupurparmar1016@gmail.com">nupurparmar1016@gmail.com</a>
-                                </div>
-                                <div class="service_list">
-                                    <ul>
-                                        <li>
-                                            <img class="popup_image" src="img/service/2.jpg" alt="">
-                                            <div class="list_inner">
-                                                <div class="details">
-                                                    <div class="title">
-                                                        <span>01</span>
-                                                        <h3>Web Development</h3>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Web development is the process of building effective websites that capture your brand, improve your conversion rates, and maximize your revenue
-                                                            to help grow your business and achieve your goals.</p>
-                                                            <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web
-                                                                design services can have an immense impact on your company’s bottom line.</p>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img class="popup_image" src="img/service/4.jpg" alt="">
-                                            <div class="list_inner">
-                                                <div class="details">
-                                                    <div class="title">
-                                                        <span>02</span>
-                                                        <h3>Mobile Application</h3>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>As smartphone users continue to rise drastically, this is an excellent opportunity for businesses to reach their target audience through mobile applications. We offers secure, robust, and rapid mobile/tablet application development services across native platforms, such as Android and iOS, and cross-platform applications in Android Native, iOS Native, React Native, and Flutter, to help businesses make the most of this exciting opportunity.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="elisc_tm_section" id="portfolio">
-                        <div class="elisc_tm_portfolio">
-                            <div class="tm_content">
-                                <div class="elisc_tm_portfolio_title">
-                                    <div class="elisc_tm_title">
-                                        <span>- Projects</span>
-                                        <h3>Recent completed works</h3>
-                                    </div>
-                                    <div class="buttons">
-                                        <a class="prev_button" href="#"><img class="svg" src="img/svg/prev.svg" alt=""></a>
-                                        <a class="next_button" href="#"><img class="svg" src="img/svg/next.svg" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio_list">
-                                    <ul class="owl-carousel gallery_zoom">
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="image">
-                                                    <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                    <a class="elisc_tm_full_link popup-youtube" href="virancestarter.in"></a>
-                                                </div>
-                                                <div class="details">
-                                                    <span class="category"><a href="#">Website</a></span>
-                                                    <h3 class="title"><a class="line_effect popup-youtube" href="virancestarter.in">Virance- Starters & Switchgears</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="image">
-                                                    <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                    <a class="elisc_tm_full_link popup-youtube" href="https://stannes.edu.in/"></a>
-                                                </div>
-                                                <div class="details">
-                                                    <span class="category"><a href="#">Website</a></span>
-                                                    <h3 class="title"><a class="line_effect popup-youtube" href="https://stannes.edu.in/">St. Annes School</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="image">
-                                                    <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                    <a class="elisc_tm_full_link popup-youtube" href="https://manorathroyalspaces.com/"></a>
-                                                </div>
-                                                <div class="details">
-                                                    <span class="category"><a href="#">Website</a></span>
-                                                    <h3 class="title"><a class="line_effect popup-youtube" href="https://manorathroyalspaces.com/">Manorath Royal Spaces</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="list_inner">
-                                                <div class="image">
-                                                    <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                    <a class="elisc_tm_full_link popup-youtube" href="https://www.mahaveerpublicschooljodhpur.com/"></a>
-                                                </div>
-                                                <div class="details">
-                                                    <span class="category"><a href="#">Website</a></span>
-                                                    <h3 class="title"><a class="line_effect popup-youtube" href="https://www.mahaveerpublicschooljodhpur.com/">Mahaveer Public School, Jodhpur</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="elisc_tm_section" id="contact">
-                        <div class="elisc_tm_contact">
-                            <div class="tm_content">
-                                <div class="wrapper">
-                                    <div class="left">
-                                        <div class="elisc_tm_title">
-                                            <span>- Let's Connect</span>
-                                            <h3>Get in touch</h3>
-                                        </div>
-                                        <div class="text">
-                                            <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me.</p>
-                                        </div>
-                                        <div class="info">
-                                            <ul>
-                                                <li>
-                                                    <a href="mailto:nupurparmar1016@gmail.com">nupurparmar1016@gmail.com</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
         </div>
 
-        <div class="mouse-cursor cursor-outer"></div>
-        <div class="mouse-cursor cursor-inner"></div>
+        <!-- ============ ABOUT ============ -->
+        <section class="about section" id="about">
+            <div class="section__head">
+                <span class="section__index">01</span>
+                <span class="section__label">About</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
 
-    </div>
+            <div class="about__grid">
+                <div class="about__sticky">
+                    <h2 class="section__title" data-reveal>
+                        I build technology around the way <em>businesses work.</em>
+                    </h2>
+                    <div class="about__portrait" data-reveal>
+                        <img src="https://nupurparmar.com/img/about/1.jpg" alt="Nupur Parmar" loading="lazy" />
+                        <span class="about__portrait-tag">Nupur Parmar — Developer</span>
+                    </div>
+                </div>
 
+                <div class="about__body">
+                    <p class="about__lead" data-reveal>
+                        Every business has its own processes, challenges, and requirements. Instead of
+                        forcing those processes into a predefined solution, I build technology around
+                        the way the business actually operates.
+                    </p>
+                    <p data-reveal>
+                        My work focuses on custom web applications, backend systems, database-driven
+                        solutions, API integrations, workflow automation, and existing system
+                        improvements.
+                    </p>
+                    <p data-reveal>
+                        I combine practical software development with problem-solving and AI-assisted
+                        tools to turn ideas and business requirements into reliable, usable digital
+                        solutions.
+                    </p>
 
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-1.js"></script>
-    <script src="js/jquery.js"></script>
-    <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-    <script src="js/plugins.js"></script>
-    <script src="js/init.js"></script>
+                    <div class="about__stats" data-reveal-group>
+                        <div class="stat" data-testid="stat-experience">
+                            <span class="stat__num"><span class="stat__count" data-count="5">0</span>+</span>
+                            <span class="stat__label">Years of Experience</span>
+                        </div>
+                        <div class="stat" data-testid="stat-projects">
+                            <span class="stat__num"><span class="stat__count" data-count="10">0</span>+</span>
+                            <span class="stat__label">Projects Completed</span>
+                        </div>
+                        <div class="stat" data-testid="stat-clients">
+                            <span class="stat__num"><span class="stat__count" data-count="10">0</span>+</span>
+                            <span class="stat__label">Happy Clients</span>
+                        </div>
+                    </div>
 
+                    <a href="mailto:connect@nupurparmar.com" class="about__mail" data-testid="about-email-link" data-cursor="hover">
+                        connect@nupurparmar.com <i aria-hidden="true">↗</i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SERVICES ============ -->
+        <section class="services section section--ink" id="services">
+            <div class="section__head">
+                <span class="section__index">02</span>
+                <span class="section__label">Services</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title section__title--wide" data-reveal>
+                Six ways I can move <em>your business</em> forward.
+            </h2>
+
+            <div class="services__list">
+
+                <article class="service" data-reveal data-testid="service-web-development">
+                    <header class="service__head">
+                        <span class="service__num">01</span>
+                        <h3 class="service__title">Custom Web Development</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__quote">Build exactly what your business needs.</p>
+                        <p class="service__desc">Custom websites and web applications designed around specific business requirements.</p>
+                        <ul class="service__tags">
+                            <li>Custom PHP applications</li><li>Database-driven systems</li><li>Admin panels</li><li>Dashboards</li><li>User management</li><li>Authentication systems</li><li>Forms &amp; workflows</li><li>Custom business tools</li><li>Feature development</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service" data-reveal data-testid="service-business-systems">
+                    <header class="service__head">
+                        <span class="service__num">02</span>
+                        <h3 class="service__title">Business Systems</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__quote">From scattered processes to one organized system.</p>
+                        <p class="service__desc">Turn complex business processes into structured digital systems.</p>
+                        <ul class="service__tags">
+                            <li>Internal management systems</li><li>Data management</li><li>Workflow systems</li><li>Administrative platforms</li><li>Reporting dashboards</li><li>Custom portals</li><li>Role-based systems</li><li>Process management</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service" data-reveal data-testid="service-api-integrations">
+                    <header class="service__head">
+                        <span class="service__num">03</span>
+                        <h3 class="service__title">API &amp; System Integrations</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__quote">Make your systems work together.</p>
+                        <p class="service__desc">Connect different tools and systems so information moves automatically between them.</p>
+                        <ul class="service__tags">
+                            <li>REST APIs</li><li>Third-party integrations</li><li>Payment integrations</li><li>Communication APIs</li><li>Webhooks</li><li>Data synchronization</li><li>Custom API development</li><li>External service integrations</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service" data-reveal data-testid="service-business-automation">
+                    <header class="service__head">
+                        <span class="service__num">04</span>
+                        <h3 class="service__title">Business Automation</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__quote">If you're doing the same task repeatedly, it may be possible to automate it.</p>
+                        <p class="service__desc">Reduce repetitive work by turning manual processes into automated workflows.</p>
+
+                        <div class="flow" data-testid="automation-flow">
+                            <span class="flow__node">Input</span>
+                            <span class="flow__link" aria-hidden="true"></span>
+                            <span class="flow__node">Process</span>
+                            <span class="flow__link" aria-hidden="true"></span>
+                            <span class="flow__node">Database</span>
+                            <span class="flow__link" aria-hidden="true"></span>
+                            <span class="flow__node">Notification</span>
+                            <span class="flow__link" aria-hidden="true"></span>
+                            <span class="flow__node">Action</span>
+                        </div>
+
+                        <ul class="service__tags">
+                            <li>Data processing</li><li>Notifications</li><li>Document generation</li><li>System updates</li><li>Scheduled operations</li><li>Workflow-based tasks</li><li>Repetitive admin processes</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service" data-reveal data-testid="service-system-improvement">
+                    <header class="service__head">
+                        <span class="service__num">05</span>
+                        <h3 class="service__title">Existing System Improvement</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__statement">You don't always need to start from scratch.</p>
+                        <p class="service__quote">Understand it. Improve it. Extend it.</p>
+                        <ul class="service__tags">
+                            <li>Bug fixing</li><li>Feature development</li><li>Database modifications</li><li>Performance improvements</li><li>UI improvements</li><li>API integrations</li><li>Code analysis</li><li>System maintenance</li><li>Legacy system improvements</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service" data-reveal data-testid="service-ai-development">
+                    <header class="service__head">
+                        <span class="service__num">06</span>
+                        <h3 class="service__title">AI-Assisted Development</h3>
+                    </header>
+                    <div class="service__body">
+                        <p class="service__statement">Human thinking. AI-assisted execution.</p>
+                        <p class="service__desc">
+                            Modern AI tools accelerate research, code development, debugging, testing,
+                            documentation, code analysis, problem solving, and technical exploration —
+                            while architecture, technical decisions, validation, and final implementation
+                            remain driven by engineering judgment.
+                        </p>
+                        <ul class="service__tags">
+                            <li>Research</li><li>Code development</li><li>Debugging</li><li>Testing</li><li>Documentation</li><li>Code analysis</li><li>Problem solving</li><li>Technical exploration</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ============ PROBLEMS I SOLVE ============ -->
+        <section class="problems section" id="problems">
+            <div class="section__head">
+                <span class="section__index">03</span>
+                <span class="section__label">Problems I Solve</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title" data-reveal>What can I help <em>you solve?</em></h2>
+
+            <div class="problems__grid" data-reveal-group>
+                <article class="problem" data-testid="problem-manual-work">
+                    <span class="problem__index">P.01</span>
+                    <h3 class="problem__title">&ldquo;We are doing too much manually.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Automate repetitive workflows.</p>
+                </article>
+                <article class="problem" data-testid="problem-system-changes">
+                    <span class="problem__index">P.02</span>
+                    <h3 class="problem__title">&ldquo;Our existing system needs changes.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Improve and extend it.</p>
+                </article>
+                <article class="problem" data-testid="problem-custom-software">
+                    <span class="problem__index">P.03</span>
+                    <h3 class="problem__title">&ldquo;We need software specific to our business.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Build a custom solution.</p>
+                </article>
+                <article class="problem" data-testid="problem-disconnected-systems">
+                    <span class="problem__index">P.04</span>
+                    <h3 class="problem__title">&ldquo;Our systems don't communicate with each other.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Connect them through APIs.</p>
+                </article>
+                <article class="problem" data-testid="problem-data-management">
+                    <span class="problem__index">P.05</span>
+                    <h3 class="problem__title">&ldquo;Our data is difficult to manage.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Build structured database-driven systems.</p>
+                </article>
+                <article class="problem" data-testid="problem-legacy-app">
+                    <span class="problem__index">P.06</span>
+                    <h3 class="problem__title">&ldquo;We have an old application that nobody understands.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Analyze, maintain, and modernize it.</p>
+                </article>
+                <article class="problem problem--wide" data-testid="problem-idea-to-build">
+                    <span class="problem__index">P.07</span>
+                    <h3 class="problem__title">&ldquo;We have an idea but don't know how to build it.&rdquo;</h3>
+                    <p class="problem__solution"><span>Solution</span>Turn the requirement into a technical solution.</p>
+                    <a href="#contact" class="problem__cta" data-testid="problem-cta" data-cursor="hover">Let's work it out <i aria-hidden="true">→</i></a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ WORK ============ -->
+        <section class="work section section--ink" id="work">
+            <div class="section__head">
+                <span class="section__index">04</span>
+                <span class="section__label">Selected Work</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title section__title--wide" data-reveal>
+                Real projects. <em>Real businesses.</em>
+            </h2>
+            <p class="work__intro" data-reveal>
+                Every project below started with a business need and ended with a working system.
+                No templates-for-hire — each one was designed and developed around the client's
+                own way of working.
+            </p>
+
+            <div class="work__list">
+
+                <a href="https://travelpocket.in/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-travel-pocket" data-cursor="view">
+                    <span class="project__num">01</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Travel Pocket</h3>
+                        <p class="project__type">Travel Services Company — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> A travel business needed a credible digital presence to present its services and capture enquiries.</p>
+                            <p><strong>Solution</strong> Designed and developed a complete custom website with structured service content and enquiry flow.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://tripsaa.com/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-tripsaa" data-cursor="view">
+                    <span class="project__num">02</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Tripsaa</h3>
+                        <p class="project__type">Travel &amp; Trip Planning — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> A trip-planning venture needed a web platform to showcase offerings and handle customer interest.</p>
+                            <p><strong>Solution</strong> Built a custom website with organized trip content, forms, and a maintainable backend structure.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://gwte.co/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-gwte" data-cursor="view">
+                    <span class="project__num">03</span>
+                    <div class="project__main">
+                        <h3 class="project__name">GWTE</h3>
+                        <p class="project__type">Industrial &amp; Engineering Business — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> An engineering business needed a professional web presence that reflects its technical credibility.</p>
+                            <p><strong>Solution</strong> Developed a structured company website with clear product and capability presentation.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://enteraction.co.in/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-enteraction" data-cursor="view">
+                    <span class="project__num">04</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Enteraction</h3>
+                        <p class="project__type">ORM Service Company — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> An online reputation management company needed a site that communicates services clearly and converts visitors into conversations.</p>
+                            <p><strong>Solution</strong> Designed and developed a service-focused website with structured content and contact workflows.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://virancestarter.in/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-virance" data-cursor="view">
+                    <span class="project__num">05</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Virance</h3>
+                        <p class="project__type">Starters &amp; Switchgears Manufacturer — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> An electrical products manufacturer needed its catalogue and company information organized online.</p>
+                            <p><strong>Solution</strong> Built a product-focused website presenting the range clearly with enquiry capability.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://stannes.edu.in/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-st-annes" data-cursor="view">
+                    <span class="project__num">06</span>
+                    <div class="project__main">
+                        <h3 class="project__name">St. Annes School</h3>
+                        <p class="project__type">Educational Institution — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> A school needed an organized, trustworthy web presence for parents, students, and admissions.</p>
+                            <p><strong>Solution</strong> Developed a structured institutional website with clear information architecture.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://manorathroyalspaces.com/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-manorath" data-cursor="view">
+                    <span class="project__num">07</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Manorath Royal Spaces</h3>
+                        <p class="project__type">Property &amp; Spaces Business — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> A property business needed a digital showcase for its spaces and a way to capture serious enquiries.</p>
+                            <p><strong>Solution</strong> Built a presentation-driven website with structured listings and contact flow.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a href="https://www.mahaveerpublicschooljodhpur.com/" target="_blank" rel="noopener" class="project" data-reveal data-testid="project-mahaveer" data-cursor="view">
+                    <span class="project__num">08</span>
+                    <div class="project__main">
+                        <h3 class="project__name">Mahaveer Public School</h3>
+                        <p class="project__type">School, Jodhpur — Website</p>
+                        <div class="project__case">
+                            <p><strong>Challenge</strong> An established school needed a modern web presence serving parents, admissions, and school communication.</p>
+                            <p><strong>Solution</strong> Designed and developed a complete institutional website with organized content sections.</p>
+                        </div>
+                        <ul class="project__tech"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                    </div>
+                    <span class="project__arrow" aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ============ PROCESS ============ -->
+        <section class="process section" id="process">
+            <div class="section__head">
+                <span class="section__index">05</span>
+                <span class="section__label">Process</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title" data-reveal>How a project <em>moves forward.</em></h2>
+
+            <div class="process__steps">
+                <article class="step" data-reveal data-testid="process-step-understand">
+                    <span class="step__num">01</span>
+                    <h3 class="step__title">Understand</h3>
+                    <p>Understand the business problem, existing workflow, users, and requirements.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+                <article class="step" data-reveal data-testid="process-step-plan">
+                    <span class="step__num">02</span>
+                    <h3 class="step__title">Plan</h3>
+                    <p>Break the problem into features, workflows, data structures, integrations, and technical requirements.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+                <article class="step" data-reveal data-testid="process-step-build">
+                    <span class="step__num">03</span>
+                    <h3 class="step__title">Build</h3>
+                    <p>Develop the solution using appropriate technologies and modern development practices.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+                <article class="step" data-reveal data-testid="process-step-integrate">
+                    <span class="step__num">04</span>
+                    <h3 class="step__title">Integrate</h3>
+                    <p>Connect external services, APIs, databases, notifications, and other systems where required.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+                <article class="step" data-reveal data-testid="process-step-test">
+                    <span class="step__num">05</span>
+                    <h3 class="step__title">Test</h3>
+                    <p>Test the system against real-world usage and edge cases.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+                <article class="step" data-reveal data-testid="process-step-improve">
+                    <span class="step__num">06</span>
+                    <h3 class="step__title">Improve</h3>
+                    <p>Continuously improve, maintain, and extend the system as requirements evolve.</p>
+                    <span class="step__line" aria-hidden="true"></span>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ WHY WORK WITH ME ============ -->
+        <section class="why section section--paper" id="why">
+            <div class="section__head">
+                <span class="section__index">06</span>
+                <span class="section__label">Why Work With Me</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title" data-reveal>Practical value, <em>not promises.</em></h2>
+
+            <div class="why__grid" data-reveal-group>
+                <article class="why-card" data-testid="why-problem-first">
+                    <span class="why-card__icon" aria-hidden="true">◈</span>
+                    <h3>Problem First</h3>
+                    <p>I focus on understanding the problem before deciding on the technology.</p>
+                </article>
+                <article class="why-card" data-testid="why-custom">
+                    <span class="why-card__icon" aria-hidden="true">◧</span>
+                    <h3>Custom, Not Generic</h3>
+                    <p>Solutions are built around your requirements instead of forcing your workflow into a predefined system.</p>
+                </article>
+                <article class="why-card" data-testid="why-practical">
+                    <span class="why-card__icon" aria-hidden="true">◨</span>
+                    <h3>Practical Development</h3>
+                    <p>The goal isn't to over-engineer. It's to build something useful, maintainable, and scalable.</p>
+                </article>
+                <article class="why-card" data-testid="why-existing-systems">
+                    <span class="why-card__icon" aria-hidden="true">◩</span>
+                    <h3>Existing Systems Welcome</h3>
+                    <p>You don't always need to replace what you already have. Sometimes the best solution is to improve it.</p>
+                </article>
+                <article class="why-card" data-testid="why-ai-accelerated">
+                    <span class="why-card__icon" aria-hidden="true">◪</span>
+                    <h3>AI-Accelerated</h3>
+                    <p>Modern AI tools help make development, research, debugging, and testing faster.</p>
+                </article>
+                <article class="why-card" data-testid="why-long-term">
+                    <span class="why-card__icon" aria-hidden="true">◫</span>
+                    <h3>Long-Term Thinking</h3>
+                    <p>I consider how a solution can evolve as the business and its requirements grow.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ TECHNOLOGIES ============ -->
+        <section class="tech section" id="tech">
+            <div class="section__head">
+                <span class="section__index">07</span>
+                <span class="section__label">Technologies</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+            <h2 class="section__title section__title--small" data-reveal>The tools behind <em>the work.</em></h2>
+
+            <div class="tech__grid" data-reveal-group>
+                <div class="tech__group" data-testid="tech-backend">
+                    <h3>Backend</h3>
+                    <ul><li>PHP</li><li>MySQL</li></ul>
+                </div>
+                <div class="tech__group" data-testid="tech-frontend">
+                    <h3>Frontend</h3>
+                    <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul>
+                </div>
+                <div class="tech__group" data-testid="tech-integration">
+                    <h3>Integration</h3>
+                    <ul><li>REST APIs</li><li>Webhooks</li><li>Third-party APIs</li></ul>
+                </div>
+                <div class="tech__group" data-testid="tech-development">
+                    <h3>Development</h3>
+                    <ul><li>Git</li><li>GitHub</li><li>AI-assisted development</li></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section class="contact section section--ink" id="contact">
+            <div class="section__head">
+                <span class="section__index">08</span>
+                <span class="section__label">Contact</span>
+                <span class="section__rule" aria-hidden="true"></span>
+            </div>
+
+            <div class="contact__inner">
+                <h2 class="contact__title" data-reveal>
+                    <span class="contact__title-line"><span>Have an idea, a problem,</span></span>
+                    <span class="contact__title-line"><span>or a system that needs</span></span>
+                    <span class="contact__title-line"><span><em>improvement?</em></span></span>
+                </h2>
+                <p class="contact__copy" data-reveal>
+                    You don't need to have the technical solution figured out. Tell me what you're
+                    trying to build, fix, improve, or automate — and we can work out the right approach.
+                </p>
+                <div class="contact__actions" data-reveal>
+                    <a href="mailto:connect@nupurparmar.com?subject=Project%20Enquiry" class="btn btn--primary btn--large" data-testid="contact-lets-talk-btn" data-cursor="hover" data-magnetic><span>Let's Talk</span><i class="btn__arrow" aria-hidden="true">→</i></a>
+                    <a href="mailto:connect@nupurparmar.com" class="contact__mail" data-testid="contact-email-link" data-cursor="hover">connect@nupurparmar.com</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="site-footer__top">
+            <a href="#home" class="site-footer__logo" data-testid="footer-logo" data-cursor="hover">Nupur Parmar</a>
+            <nav class="site-footer__nav" aria-label="Footer">
+                <a href="#about" data-testid="footer-nav-about" data-cursor="hover">About</a>
+                <a href="#services" data-testid="footer-nav-services" data-cursor="hover">Services</a>
+                <a href="#work" data-testid="footer-nav-work" data-cursor="hover">Work</a>
+                <a href="#process" data-testid="footer-nav-process" data-cursor="hover">Process</a>
+                <a href="#contact" data-testid="footer-nav-contact" data-cursor="hover">Contact</a>
+            </nav>
+            <button class="site-footer__top-btn" id="back-to-top" data-testid="back-to-top-btn" data-cursor="hover" aria-label="Back to top">↑</button>
+        </div>
+        <div class="site-footer__bottom">
+            <p>© <span id="footer-year">2026</span> nupurparmar.com — All rights reserved.</p>
+            <p>Custom Software · Web Applications · Business Automation · API Integrations · AI-Assisted Development</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"7f7b0fd8732c4326aae4b9d58d5c514a","spa":2}' crossorigin="anonymous"></script>
 </body>
-
 </html>
